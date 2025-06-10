@@ -3,8 +3,8 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog
 from new_values import get_random_int, get_random_string
-
 from parsing_json import parsing_contragen_json, parsing_user_json
+import base64
 
 # Начало окна ткинтера
 root = Tk()
@@ -148,6 +148,14 @@ class ContragentParams:
         with open(file_path, 'w', encoding='utf-8') as json_file:
             json.dump(data_contragent_json, json_file, ensure_ascii=False, indent=4)
 
+        with open(file_path, 'rb') as base64_file:
+            new_base64_file_content = base64_file.read()
+
+        base64_encoded_content = base64.b64encode(new_base64_file_content)
+        base64_encoded_string = base64_encoded_content.decode('utf-8')
+        with open('contragent_base64.txt', 'w') as base64_file:
+            base64_file.write(base64_encoded_string)
+
 
 # Создаем экземпляр класса ContragentParams
 contragent_params_data = ContragentParams()
@@ -230,6 +238,14 @@ class UserParams:
         file_path = 'user.json'
         with open(file_path, 'w', encoding='utf-8') as json_file:
             json.dump(data_user_json, json_file, ensure_ascii=False, indent=4)
+
+        with open(file_path, 'rb') as base64_file:
+            new_base64_file_content = base64_file.read()
+
+        base64_encoded_content = base64.b64encode(new_base64_file_content)
+        base64_encoded_string = base64_encoded_content.decode('utf-8')
+        with open('user_base64.txt', 'w') as base64_file:
+            base64_file.write(base64_encoded_string)
 
 
 # Создаем экземпляр класса UserParams
