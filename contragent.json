@@ -1,0 +1,106 @@
+{
+    "index": {
+        "id": "528bcb6e-e23f-4fcc-b7b3-39699ef71010",
+        "sender": "TORGI",
+        "receiver": "ETP_GPB",
+        "requestDate": "2024-10-30T02:04:38.101Z",
+        "objectType": "RB",
+        "objectId": "827217478"
+    },
+    "data": {
+        "structuredObject": {
+            "bidder": {
+                "schemeVersion": "3.1",
+                "version": 5,
+                "id": "5b78ef18-0117-4b4a-b953-0e5cbc9af110",
+                "commonInfo": {
+                    "bidderCode": "743981282",
+                    "recordStatus": "REGISTERED",
+                    "registrationDate": "2001-05-24T03:07:43.625Z",
+                    "createDate": "2001-05-24T03:06:33.276Z",
+                    "updateDate": "2024-10-30T02:04:37.234Z",
+                    "timeZone": {
+                        "code": "TM168",
+                        "name": "MSK+07:00 (UTC+10:00)"
+                    },
+                    "bidderRoles": [
+                        "ROLE_BIDDER"
+                    ],
+                    "docs": [
+                        {
+                            "id": "646d7f1af034f05784432978",
+                            "name": "ИНН.pdf",
+                            "size": 1190444,
+                            "hash": "c08205eaf7d0dbeae1ee4937ca6b0b781f9a4b5a42a9557fbd2f5f76f328b1be",
+                            "attachmentType": {
+                                "code": "Copy_Founding_Document",
+                                "name": "Копия учредительных документов юридического лица"
+                            }
+                        },
+                        {
+                            "id": "646d7f2498ec60029f98f55f",
+                            "name": "ОГРН.pdf",
+                            "size": 2648232,
+                            "hash": "01c4df1e91227a15d750a68f106bad4266ab3e273b35547b665e20bb0ff7aea2",
+                            "attachmentType": {
+                                "code": "Copy_Founding_Document",
+                                "name": "Копия учредительных документов юридического лица"
+                            }
+                        },
+                        {
+                            "id": "65531b891d11cb1737780523",
+                            "name": "Выписка из ЕГРЮЛ.xml",
+                            "size": 21933,
+                            "hash": "00b41e72df0768b35fcdd45bf75f358b18486d813f8eddcf615e601d14c4fe37",
+                            "attachmentType": {
+                                "code": "Erg_Statement_Document",
+                                "name": "Выписка из ЕГРЮЛ, ЕГРИП"
+                            }
+                        }
+                    ]
+                },
+                "legal": {
+                    "esiaOid": "202972484",
+                    "fullName": "Общество 3",
+                    "shortName": "ООО \"Закурим с гисом по двеннадцатой\"",
+                    "chief": "Генеральный Директор Компании",
+                    "ogrn": "7249288811091",
+                    "inn": "737371186",
+                    "kpp": "973868732",
+                    "okveds": [
+                        "16.10",
+                        "02.10",
+                        "02.20",
+                        "02.40",
+                        "16.10.1",
+                        "16.10.2",
+                        "16.10.3"
+                    ],
+                    "regDate": "2022-10-31T00:00:00.000Z",
+                    "legalAddress": "174456, Московская область, г. Москва, ул. Средняя линия, д. 11",
+                    "actualAddress": "174456, Московская область, г. Москва, ул. Средняя линия, д. 11",
+                    "smpInfo": {
+                        "inclusionDate": "2016-08-01",
+                        "category": "1"
+                    },
+                    "egrStatus": {
+                        "code": "001",
+                        "name": "Действующее"
+                    }
+                },
+                "contactInfo": {
+                    "phoneNumber": "85654618546",
+                    "postalAddress": "174456, Московская область, г. Москва, ул. Средняя линия, д. 11",
+                    "email": "gis-elkkkkk3@mailforspam.com"
+                }
+            }
+        },
+        "attachments": [
+            {
+                "contentId": "65531b891d11cb1737780523",
+                "URL": "http://10.141.162.102/new/file-store/v1/internal/65531b891d11cb1737780523",
+                "detachedSignature": "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"
+            }
+        ]
+    }
+}

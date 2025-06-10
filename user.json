@@ -1,0 +1,58 @@
+{
+    "index": {
+        "id": "f67d20a8-ff67-4763-888c-a7821083ae61",
+        "sender": "TORGI",
+        "receiver": "ETP_GPB",
+        "requestDate": "2024-07-05T14:43:33.918Z",
+        "objectType": "RB",
+        "objectId": "755106157"
+    },
+    "data": {
+        "structuredObject": {
+            "bidderUser": {
+                "schemeVersion": "3.2",
+                "version": 1,
+                "id": "7bfedd2e-33c6-0000-0001-2bae240c9c88",
+                "commonInfo": {
+                    "userId": "049884326",
+                    "prnOid": 117720485,
+                    "recordStatus": "REGISTERED",
+                    "registrationDate": "2024-10-30T14:43:32.435Z",
+                    "createDate": "2024-10-30T14:42:46.763Z",
+                    "updateDate": "2024-10-30T14:43:32.871Z",
+                    "userRoles": [
+                        "ROLE_CHIEF",
+                        "ROLE_AUTORIZED_SPECIALIST",
+                        "ROLE_BIDDER_REGISTRATION",
+                        "ROLE_BIDDER_BRANCH_REGISTRATION",
+                        "ROLE_BIDDER_PROFILE_EDIT",
+                        "ROLE_BIDDER_USER_EDIT",
+                        "ROLE_BIDDER_ETP_PARTICIPATION"
+                    ]
+                },
+                "personInfo": {
+                    "FIO": {
+                        "lastName": "аывпавпрваы",
+                        "firstName": "рпаоренгшошщ",
+                        "middleName": "ннененехзщзхзщнене"
+                    },
+                    "inn": "152288884114",
+                    "snils": "15888555498"
+                },
+                "bidderInfo": {
+                    "bidderCode": "797663994",
+                    "esiaOid": 202705712,
+                    "fullName": "Общество с ограниченной ответственностью \"Закурим с гисом по двеннадцатой\"",
+                    "shortName": "ООО \"Закурим с гисом по двеннадцатой\"",
+                    "ogrn": "1066320012505",
+                    "inn": "6321162685",
+                    "kpp": "632101001"
+                },
+                "contactInfo": {
+                    "phoneNumber": "815664809",
+                    "email": "gis-elkkkkk12@mailforspam.com"
+                }
+            }
+        }
+    }
+}
