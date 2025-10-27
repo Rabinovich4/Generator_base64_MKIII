@@ -228,7 +228,8 @@ class UserParams:
         data_user_json['data']['structuredObject']['bidderUser']['personInfo']['FIO']['lastName'] = get_random_string(5)
         data_user_json['data']['structuredObject']['bidderUser']['personInfo']['FIO']['firstName'] = get_random_string(5)
         data_user_json['data']['structuredObject']['bidderUser']['personInfo']['FIO']['middleName'] = get_random_string(5)
-        data_user_json['data']['structuredObject']['bidderUser']['contactInfo']['email'] = data_contragent_json['data']['structuredObject']['bidder']['contactInfo']['email']
+        new_user_email = data_contragent_json['data']['structuredObject']['bidder']['contactInfo']['email']
+        data_user_json['data']['structuredObject']['bidderUser']['contactInfo']['email'] = new_user_email
 
         # Выбор директории для сохранения файла
         file_path = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[("JSON files", "*.json")])

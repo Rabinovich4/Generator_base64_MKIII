@@ -5,7 +5,7 @@
         "receiver": "ETP_GPB",
         "requestDate": "2024-07-05T14:43:33.918Z",
         "objectType": "RB",
-        "objectId": "136689891"
+        "objectId": "623525324"
     },
     "data": {
         "structuredObject": {
@@ -14,8 +14,8 @@
                 "version": 1,
                 "id": "7bfedd2e-33c6-0000-0001-2bae240c9c88",
                 "commonInfo": {
-                    "userId": "442244784",
-                    "prnOid": "797142757",
+                    "userId": "355186617",
+                    "prnOid": "843682745",
                     "recordStatus": "REGISTERED",
                     "registrationDate": "2024-10-30T14:43:32.435Z",
                     "createDate": "2024-10-30T14:42:46.763Z",
@@ -32,16 +32,16 @@
                 },
                 "personInfo": {
                     "FIO": {
-                        "lastName": "WkFZt",
-                        "firstName": "xMfFB",
-                        "middleName": "BYDmL"
+                        "lastName": "GjNad",
+                        "firstName": "pKOJz",
+                        "middleName": "XwBMj"
                     },
                     "inn": "152288884114",
                     "snils": "15888555498"
                 },
                 "bidderInfo": {
-                    "bidderCode": "953948183",
-                    "esiaOid": "202331772",
+                    "bidderCode": "254192861",
+                    "esiaOid": "376067940",
                     "fullName": "Общество с ограниченной ответственностью \"Закурим с гисом по двеннадцатой\"",
                     "shortName": "ООО \"Закурим с гисом по двеннадцатой\"",
                     "ogrn": "1066320012505",
@@ -50,7 +50,7 @@
                 },
                 "contactInfo": {
                     "phoneNumber": "815664809",
-                    "email": "gis-elkkkkk5@mailforspam.com"
+                    "email": "gis-elkkkkk6@mailforspam.com"
                 }
             }
         }
