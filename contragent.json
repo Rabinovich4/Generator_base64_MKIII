@@ -5,7 +5,7 @@
         "receiver": "ETP_GPB",
         "requestDate": "2024-10-30T02:04:38.101Z",
         "objectType": "RB",
-        "objectId": "827217478"
+        "objectId": "234381994"
     },
     "data": {
         "structuredObject": {
@@ -14,7 +14,7 @@
                 "version": 5,
                 "id": "5b78ef18-0117-4b4a-b953-0e5cbc9af110",
                 "commonInfo": {
-                    "bidderCode": "743981282",
+                    "bidderCode": "953948183",
                     "recordStatus": "REGISTERED",
                     "registrationDate": "2001-05-24T03:07:43.625Z",
                     "createDate": "2001-05-24T03:06:33.276Z",
@@ -60,13 +60,13 @@
                     ]
                 },
                 "legal": {
-                    "esiaOid": "202972484",
-                    "fullName": "Общество 3",
+                    "esiaOid": "202331772",
+                    "fullName": "Общество 5",
                     "shortName": "ООО \"Закурим с гисом по двеннадцатой\"",
                     "chief": "Генеральный Директор Компании",
-                    "ogrn": "7249288811091",
-                    "inn": "737371186",
-                    "kpp": "973868732",
+                    "ogrn": "2885644956093",
+                    "inn": "850421781",
+                    "kpp": "112333427",
                     "okveds": [
                         "16.10",
                         "02.10",
@@ -91,7 +91,7 @@
                 "contactInfo": {
                     "phoneNumber": "85654618546",
                     "postalAddress": "174456, Московская область, г. Москва, ул. Средняя линия, д. 11",
-                    "email": "gis-elkkkkk3@mailforspam.com"
+                    "email": "gis-elkkkkk5@mailforspam.com"
                 }
             }
         },

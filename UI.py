@@ -62,7 +62,7 @@ class ContragentParams:
     def get_inn(self):
         input_inn = entry_inn.get()
         if input_inn == '':
-            input_inn = get_random_int(9)
+            input_inn = get_random_int(10)
         else:
             input_inn = int(input_inn)
         return input_inn
@@ -228,6 +228,7 @@ class UserParams:
         data_user_json['data']['structuredObject']['bidderUser']['personInfo']['FIO']['lastName'] = get_random_string(5)
         data_user_json['data']['structuredObject']['bidderUser']['personInfo']['FIO']['firstName'] = get_random_string(5)
         data_user_json['data']['structuredObject']['bidderUser']['personInfo']['FIO']['middleName'] = get_random_string(5)
+        data_user_json['data']['structuredObject']['bidderUser']['contactInfo']['email'] = data_contragent_json['data']['structuredObject']['bidder']['contactInfo']['email']
 
         # Выбор директории для сохранения файла
         file_path = filedialog.asksaveasfilename(defaultextension=".json", filetypes=[("JSON files", "*.json")])
